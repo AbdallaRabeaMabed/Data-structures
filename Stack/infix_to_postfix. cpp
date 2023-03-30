@@ -53,6 +53,5 @@ int main()
 {
 	string infixExpression = ("(3+2)+7/2*((7+3)*2)");
 	cout << infix_to_postfix(infixExpression) << endl;
-	system("pause");
 	return 0;
 }
